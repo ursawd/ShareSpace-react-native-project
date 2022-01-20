@@ -1,5 +1,8 @@
 import { StyleSheet } from "react-native";
-
+//
+// teal color: #00b8b8
+// gold color: gold
+//
 const gStyles = StyleSheet.create({
   container: {
     flex: 1,

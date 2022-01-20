@@ -12,7 +12,7 @@ const Row2 = () => {
           solo workers, growing your business, or starting a new one.
         </Text>
         <View style={{ marginTop: 15 }}>
-          <Button title="SIGN ME UP!" onPress={() => alert("Button pressed")} />
+          <Button color="#00B8B8" title="SIGN ME UP!" onPress={() => alert("Button pressed")} />
         </View>
       </View>
     </View>
