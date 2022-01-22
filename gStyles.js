@@ -22,5 +22,8 @@ const gStyles = StyleSheet.create({
   t5: {
     fontSize: 80,
   },
+  teal: {
+    color: "#00b8b8",
+  },
 });
 export default gStyles;
