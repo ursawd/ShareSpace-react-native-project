@@ -1,4 +1,5 @@
-import { View, Text, Button } from "react-native";
+import { View, Text } from "react-native";
+import { Button } from "react-native-elements";
 import React from "react";
 import gStyles from "../../gStyles";
 
@@ -16,7 +17,7 @@ const Row2 = () => {
 				</Text>
 				<View style={{ marginTop: 15 }}>
 					<Button
-						color={gStyles.teal}
+						buttonStyle={{ backgroundColor: "#00b8b8" }}
 						title="SIGN ME UP!"
 						onPress={() => alert("Button pressed")}
 					/>

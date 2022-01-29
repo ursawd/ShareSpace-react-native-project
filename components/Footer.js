@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, Button, ScrollView, ImageBackground } from "react-native";
 import gStyles from "./../gStyles";
 
-const Footer = () => {
+const Footer = ({ navigation }) => {
 	return (
 		<View style={{ backgroundColor: "gold", flex: 1, paddingBottom: 15 }}>
 			<View
@@ -36,14 +36,39 @@ const Footer = () => {
 			>
 				<View style={{ flex: 1, alignItems: "center" }}>
 					<Text style={{ fontSize: 19 }}>Services</Text>
-					<Text style={{ textDecorationLine: "underline" }}>Memberships</Text>
-					<Text style={{ textDecorationLine: "underline" }}>Suites</Text>
-					<Text style={{ textDecorationLine: "underline" }}>Drop In</Text>
+					<Text
+						style={{ textDecorationLine: "underline" }}
+						onPress={() => navigation.navigate("Membership")}
+					>
+						Memberships
+					</Text>
+					<Text
+						style={{ textDecorationLine: "underline" }}
+						onPress={() => navigation.navigate("Suites")}
+					>
+						Suites
+					</Text>
+					<Text
+						style={{ textDecorationLine: "underline" }}
+						onPress={() => navigation.navigate("Dropin")}
+					>
+						Drop In
+					</Text>
 				</View>
 				<View style={{ flex: 1, alignItems: "center" }}>
 					<Text style={{ fontSize: 19 }}>Who We Are</Text>
-					<Text style={{ textDecorationLine: "underline" }}>Community</Text>
-					<Text style={{ textDecorationLine: "underline" }}>Contact</Text>
+					<Text
+						style={{ textDecorationLine: "underline" }}
+						onPress={() => navigation.navigate("Community")}
+					>
+						Community
+					</Text>
+					<Text
+						style={{ textDecorationLine: "underline" }}
+						onPress={() => navigation.navigate("Contact")}
+					>
+						Contact
+					</Text>
 				</View>
 			</View>
 		</View>
