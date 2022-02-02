@@ -3,7 +3,7 @@ import { Button } from "react-native-elements";
 import React from "react";
 import gStyles from "../../gStyles";
 
-const Row2 = () => {
+const Row2 = ({ navigation }) => {
 	return (
 		<View style={{ height: 200, backgroundColor: "gold" }}>
 			<View style={{ flex: 1, alignItems: "center" }}>
@@ -19,7 +19,7 @@ const Row2 = () => {
 					<Button
 						buttonStyle={{ backgroundColor: "#00b8b8" }}
 						title="SIGN ME UP!"
-						onPress={() => alert("Button pressed")}
+						onPress={() => navigation.navigate("Contact")}
 					/>
 				</View>
 			</View>

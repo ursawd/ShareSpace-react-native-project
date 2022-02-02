@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text } from "react-native";
 import Footer from "../components/Footer";
+
 export default function MembershipView({ navigation }) {
 	return (
 		<View
@@ -18,7 +19,7 @@ export default function MembershipView({ navigation }) {
 			>
 				<Text>Membership View</Text>
 			</View>
-			<Footer />
+			<Footer navigation={navigation} />
 		</View>
 	);
 }

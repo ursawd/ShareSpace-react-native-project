@@ -12,9 +12,9 @@ export default function HomeView({ navigation }) {
 		<ScrollView>
 			<View style={{ flex: 1 }}>
 				<Row1 />
-				<Row2 />
-				<Row3 />
-				<Row4 />
+				<Row2 navigation={navigation} />
+				<Row3 navigation={navigation} />
+				<Row4 navigation={navigation} />
 				<Row5 />
 				<Footer navigation={navigation} />
 			</View>

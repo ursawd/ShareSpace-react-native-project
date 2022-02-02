@@ -14,16 +14,25 @@ import ContactView from "./views/ContactView";
 const Drawer = createDrawerNavigator();
 
 export default function App() {
-  return (
-    <NavigationContainer>
-      <Drawer.Navigator initialRouteName="Home">
-        <Drawer.Screen name="Home" component={HomeView} />
-        <Drawer.Screen name="Membership" component={MembershipView} />
-        <Drawer.Screen name="Suites" component={SuitesView} />
-        <Drawer.Screen name="Dropin" component={DropinView} />
-        <Drawer.Screen name="Community" component={CommunityView} />
-        <Drawer.Screen name="Contact" component={ContactView} />
-      </Drawer.Navigator>
-    </NavigationContainer>
-  );
+	return (
+		<NavigationContainer>
+			<Drawer.Navigator
+				initialRouteName="Home"
+				screenOptions={{
+					headerStyle: {
+						backgroundColor: "gold",
+						borderBottomColor: "rgba(0,0,0,.1",
+						borderBottomWidth: 1,
+					},
+				}}
+			>
+				<Drawer.Screen name="Home" component={HomeView} />
+				<Drawer.Screen name="Membership" component={MembershipView} />
+				<Drawer.Screen name="Suites" component={SuitesView} />
+				<Drawer.Screen name="Dropin" component={DropinView} />
+				<Drawer.Screen name="Community" component={CommunityView} />
+				<Drawer.Screen name="Contact" component={ContactView} />
+			</Drawer.Navigator>
+		</NavigationContainer>
+	);
 }

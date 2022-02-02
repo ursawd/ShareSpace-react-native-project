@@ -3,7 +3,7 @@ import React from "react";
 import gStyles from "../../gStyles";
 import { Button } from "react-native-elements";
 
-const Row4 = () => {
+const Row4 = ({ navigation }) => {
 	return (
 		<ImageBackground
 			source={require("../../assets/images/coworkingsuites.jpg")}
@@ -38,7 +38,7 @@ const Row4 = () => {
 					containerStyle={{ marginTop: 20 }}
 					titleStyle={{ color: "black" }}
 					buttonStyle={{ backgroundColor: "gold" }}
-					onPress={() => alert("Button Pressed")}
+					onPress={() => navigation.navigate("Suites")}
 				/>
 			</View>
 		</ImageBackground>
