@@ -1,10 +1,10 @@
 import React from "react";
 import { View, Text, Button, ScrollView, ImageBackground } from "react-native";
-import Row1 from "./Home/Row1";
-import Row2 from "./Home/Row2";
-import Row3 from "./Home/Row3";
-import Row4 from "./Home/Row4";
-import Row5 from "./Home/Row5";
+import Row1 from "./viewRows/Home/Row1";
+import Row2 from "./viewRows/Home/Row2";
+import Row3 from "./viewRows/Home/Row3";
+import Row4 from "./viewRows/Home/Row4";
+import Row5 from "./viewRows/Home/Row5";
 import Footer from "../components/Footer";
 
 export default function HomeView({ navigation }) {

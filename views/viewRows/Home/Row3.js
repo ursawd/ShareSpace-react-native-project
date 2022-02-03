@@ -1,7 +1,7 @@
 import { View, Text } from "react-native";
 import { Button, Card } from "react-native-elements";
 import React from "react";
-import gStyles from "../../gStyles";
+import gStyles from "../../../gStyles";
 import { NavigationContainer } from "@react-navigation/native";
 
 const Row3 = ({ navigation }) => {
@@ -15,7 +15,7 @@ const Row3 = ({ navigation }) => {
 					<Card>
 						<Card.Image
 							style={{ height: 300 }}
-							source={require("../../assets/images/dropinc.jpg")}
+							source={require("../../../assets/images/dropinc.jpg")}
 						/>
 						<Card.Title>Drop In</Card.Title>
 						<Text style={{ alignSelf: "center" }}>Starting at $25 / day</Text>
@@ -26,7 +26,7 @@ const Row3 = ({ navigation }) => {
 					<Card>
 						<Card.Image
 							style={{ height: 300 }}
-							source={require("../../assets/images/hotdeskc.jpg")}
+							source={require("../../../assets/images/hotdeskc.jpg")}
 						/>
 						<Card.Title>Hot Desk</Card.Title>
 						<Text style={{ alignSelf: "center" }}>Starting at $9.68 / day</Text>
@@ -37,7 +37,7 @@ const Row3 = ({ navigation }) => {
 					<Card>
 						<Card.Image
 							style={{ height: 300 }}
-							source={require("../../assets/images/permentdeskc.jpg")}
+							source={require("../../../assets/images/permentdeskc.jpg")}
 						/>
 						<Card.Title>Permanent Desk</Card.Title>
 						<Text style={{ alignSelf: "center" }}>

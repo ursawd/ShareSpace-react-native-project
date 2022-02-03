@@ -1,7 +1,7 @@
 import { View, Text } from "react-native";
 import { Button, Card } from "react-native-elements";
 import React from "react";
-import gStyles from "../../gStyles";
+import gStyles from "../../../gStyles";
 
 const styles = {
 	content: {

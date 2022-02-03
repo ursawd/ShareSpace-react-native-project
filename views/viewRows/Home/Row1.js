@@ -4,7 +4,7 @@ import React from "react";
 const Row1 = () => {
 	return (
 		<ImageBackground
-			source={require("../../assets/open-office-main.jpeg")}
+			source={require("../../../assets/open-office-main.jpeg")}
 			style={{ height: 300 }}
 		>
 			<View style={{ flex: 1 }}></View>
