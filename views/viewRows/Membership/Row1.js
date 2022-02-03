@@ -5,7 +5,6 @@ const Row1 = () => {
 	return (
 		<View
 			style={{
-				flex: 1,
 				backgroundColor: "#00b8b8",
 			}}
 		>
@@ -23,7 +22,7 @@ const Row1 = () => {
 				Amenities that come with every in--person membership.
 			</Text>
 
-			<View style={{ alignItems: "center" }}>
+			<View style={{ alignItems: "center", paddingBottom: 20 }}>
 				<Text style={{ color: "white" }}>3 PARKING OPTIONS</Text>
 				<Text style={{ color: "white" }}>UNLIMITED COFFEE + TEA</Text>
 				<Text style={{ color: "white" }}>FULL KITCHEN</Text>
