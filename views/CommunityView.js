@@ -1,14 +1,17 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, ScrollView } from "react-native";
 import Footer from "../components/Footer";
+import Row1 from "./viewRows/Community/Row1";
+import Row2 from "./viewRows/Community/Row2";
 
 export default function CommunityView({ navigation }) {
 	return (
-		<View style={{ flex: 1 }}>
-			<View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-				<Text>Community View</Text>
+		<ScrollView>
+			<View style={{ flex: 1 }}>
+				<Row1 navigation={navigation} />
+				<Row2 navigation={navigation} />
+				<Footer navigation={navigation} />
 			</View>
-			<Footer navigation={navigation} />
-		</View>
+		</ScrollView>
 	);
 }

@@ -35,7 +35,7 @@ export default function ContactView({ navigation }) {
 					Every membership at ShareSpace begins with a tour of the space and a
 					conversation with one of our Community Managers.
 				</Text>
-				<Text>management@workatfellow.com</Text>
+				<Text>management@sharespace.com</Text>
 				<Text style={{ paddingVertical: 10 }}>(508)555-3099</Text>
 			</View>
 			<Text style={{ color: "teal", fontSize: 20, padding: 10 }}>
